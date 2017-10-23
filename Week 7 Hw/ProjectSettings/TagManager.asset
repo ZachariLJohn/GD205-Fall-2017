@@ -8,6 +8,7 @@ TagManager:
   - Enimu
   - Enimu2
   - Enimu3
+  - human
   layers:
   - Default
   - TransparentFX

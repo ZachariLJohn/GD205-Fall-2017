@@ -2,20 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BasicAi : MonoBehaviour {
+public class Slowemu : MonoBehaviour {
 
 
     public Transform Player;
     public Transform myTransform;
 
-
-
-
     // Update is called once per frame
     void Update()
     {
         transform.LookAt(Player);
-        transform.Translate(Vector3.forward * 2 * Time.deltaTime);
+        transform.Translate(Vector3.forward * 1 * Time.deltaTime);
     }
 }
-
