@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scene/Week8classwork.unity
+  isLoaded: 1
+  isActive: 1
