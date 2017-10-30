@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Week7 homework.unity
+- path: Assets/Scenes/Day cycle.unity
   isLoaded: 1
   isActive: 1
