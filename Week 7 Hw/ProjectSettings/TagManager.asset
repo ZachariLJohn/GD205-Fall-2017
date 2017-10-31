@@ -10,6 +10,9 @@ TagManager:
   - Enimu3
   - human
   - Nextstep
+  - ShoppingBag1
+  - ShoppingBag2
+  - ShoppingBag3
   layers:
   - Default
   - TransparentFX
