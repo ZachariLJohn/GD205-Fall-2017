@@ -13,6 +13,7 @@ TagManager:
   - ShoppingBag1
   - ShoppingBag2
   - ShoppingBag3
+  - NormalEnemy
   layers:
   - Default
   - TransparentFX

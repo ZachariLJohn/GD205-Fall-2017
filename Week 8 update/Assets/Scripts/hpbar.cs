@@ -49,6 +49,7 @@ public class hpbar : MonoBehaviour {
             cur_Health = 0;
             gameObject.SetActive(false);
             transform.position = new Vector3(0, 1.1f, 0);
+			Application.LoadLevel("Night cycle");
            
         }
     }
@@ -65,9 +66,9 @@ public class hpbar : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("ShoppingBag1"))
+        if (other.gameObject.CompareTag("NormalEnemy"))
         {
-            cur_Health -= 9;
+            cur_Health -= 2;
         }
     }
 
